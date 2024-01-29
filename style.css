@@ -1,0 +1,230 @@
+*{
+    font-family: montserrat;
+}
+.section-beader h2{
+    color: black;
+    font-size: 45px;
+    font-weight: 700;
+}
+.section-header h2 span{
+    color: #0a19ef;
+}
+.navbar-nav a{
+    font-size: 16px;
+    font-weight: 700;
+}
+.navbar-light .navbar-brand{
+    color: black;
+    font-size: 25px;
+    text-transform:uppercase ;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.navbar-light .navbar-brand span{
+    color:#0732ee ;
+}
+.section-padding{
+    padding: 80px 0;
+}
+.v-100{
+    height: 100vh;
+}
+.navbar-toggler{
+    padding:1px 5px ;
+    font-size: 10px;
+    line-height: 0.3;
+    background: white;
+}
+.carousel{
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+    left: 8%;
+}
+.carousel-caption h5{
+    font-size: 45px;
+    margin-top: 25px;
+    color: black;
+    font-weight: 700;
+    text-align: left;
+}
+.carousel-caption h5 span{
+    color: #0732ee;
+}
+.carousel-caption p{
+    width: 60%;
+    font-size: 10px;
+    line-height: 1.8;
+    color: black;
+    text-align: left;
+}
+.carousel-caption a{
+    text-transform: uppercase;
+    text-decoration: none;
+    background: black;
+    padding: 5px 20px;
+    display: inline-block;
+    color: white;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+.img-area img{
+    width: 100% !important;
+}
+.about-text h2{
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+}
+.about-text h2 span{
+    color: #0732ee;
+}
+.about-text .btn{
+    background: black;
+    color: white;
+}
+.single-services{
+    background: rgb(5, 9, 37);
+    color: white;
+    padding: 30px 15px;
+}
+.single-services i{
+    font-size: 45px;
+    margin-bottom: 30px;
+}
+.single-services h2{
+    font-family: bebas neue;
+}
+.section-header h2{
+    font-size: 45px; 
+    font-weight: 700;
+}
+.choose-img img{
+    width: 100%;
+}
+.single-box i{
+    font-size: 35px;
+    margin-bottom: 25px;
+    color: #0732ee;
+}
+.single-box h2{
+    font-family: bebas neue;
+    color: rgb(5, 9, 37);
+}
+.imgBox{
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 25px;
+}
+.imgBox img{
+    width: 100%;
+}
+.single-client{
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.3);
+    padding: 30PX 15px;
+}
+.single-client h2{
+    font-family: bebas neue;
+    color: rgb(5, 9, 37);
+}
+.single-client h5{
+    color: rgb(5, 9, 37);
+    font-weight: 600;
+    font-size: 15px; 
+}
+.single-client h5 span{
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.left-contact{
+    background: rgb(5, 9, 37);
+    padding: 40px;
+    color: white;
+}
+.left-contact h3{
+    font-family: bebas neue;
+    margin-bottom: 4px;
+}
+label{
+    font-family: bebas neue;
+    font-size: 20px;
+    margin: 10px 0;
+    color:rgb(5, 9, 37) ;
+}
+.contact .btn{
+    background: rgb(5, 9, 37);
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+footer{
+    background: rgb(5, 9, 37); 
+    padding: 35px 0;
+    color: white;
+    margin-top: 40px;
+    
+}
+.socials i{
+    font-size: 25px;
+    margin: 0 15px;
+    
+}
+@media only screen and (max-width: 750PX) and (max-width:991PX){
+    .about-text h2{
+        margin: 20px 0;
+    }
+    .single-services {
+        margin-bottom: 30px;
+    }
+    .single-client{
+        margin-bottom: 30px;
+    }
+    .left-contact{
+        margin-bottom: 30px;
+    }
+}
+@media only screen and (max-width:767PX) {
+    .navbar-nav{
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 100px;
+    }
+    .carousel-caption h5{
+font-size: 20px;
+    }
+.carousel-caption p{
+    width: 100%;
+    font-size: 15px;
+}
+.carousel-caption a{
+    padding: 10px 15px;
+    font-size: 10px;
+}
+.about-text h2{
+    font-size: 30px;
+    margin: 15px;
+}
+.section-header h2{
+    font-size: 30px;
+}
+.single-services{
+    margin-bottom: 30px;
+}
+.left-contact h3{
+    text-align: center;
+}
+.left-contact p{
+    text-align: center;
+}
+}
